@@ -38,4 +38,14 @@ $(document).ready(function () {
             }
         }, ]
     });
+
+    $('.slick-prev, .slick-next').on('click', function(){
+        re_initSlick();
+    });
+
+    var re_initSlick = function() {    
+        $slick.slick('slickSetOption', {
+          'autoplay': false
+        }, false);
+    }
 });

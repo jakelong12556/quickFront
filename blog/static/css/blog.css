@@ -1,0 +1,14 @@
+@media (max-width: 768px) {
+  .hsmall {
+    display: none;
+  }
+}
+
+.slick-slide {
+  height: 350px;
+}
+
+.slick-slide img {
+  height: 350px;
+  object-fit: cover;
+}
