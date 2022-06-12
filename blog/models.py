@@ -17,3 +17,9 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
+
+
+class Interactions(models.Model):
+    sector_id = models.IntegerField()
+    name = models.TextField(max_length=100)
+    date = models.DateField()
